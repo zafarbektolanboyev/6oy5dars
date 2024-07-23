@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: wheat;
+}
+.todo-app{
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid white;
+  background-color: white;
+  margin-left: 500px;
+  padding: 15px;
+  margin-top: 150px;
+}
+ul{
+  margin-top: 30px;
+}
+li{
+  list-style: none;
+  width: 100%;
+  background-color: #F3F1F4;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+button{
+  background-color: #8F4CF1;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+}
+.inputs{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  margin-top: 10px;
+}
+.inputs input{
+  width: 100%;
+  border: none;
+  border: 1px solid #D8D7D8;
+  padding: 9px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+.todo-app h3{
+  font-size: 1.3rem;
+}
+.clear{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+  width: 100%;
+}
+.clear button{
+  border-radius: 5px;
+}
+.inputs button{
+  width: 50px;
+  font-size: 1.7rem;
+}
+li #icon{
+  background-color: brown;
+  width: 30px;
+  padding: 8px;
+  height: 100px;
+  color: white;
+  cursor: pointer;
+  height: 100%;
+  display: none;
+}
+li:hover #icon{
+  border-radius: 5px;
+  display: block;
+  transition: all 0.5s;
+}
+button:hover{
+  background-color: #F3F1F4;
+  color: black;
+  transition: all 0.5s;
+}
